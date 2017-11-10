@@ -3,7 +3,7 @@
 This is a list of commands I frequently use. Most of them have to do with development for Apple platforms, although not all! 
 
 ## 📓 Almanac
-### [Git] Remove all cached files to ensure there are no .gitignore files being tracked
+### [Git] Remove all cached files to ensure there are no files from .gitignore being tracked
 ```git rm --cached -r .```
 
 ### Swiftlint
