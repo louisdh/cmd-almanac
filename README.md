@@ -34,10 +34,14 @@ javap -c File.class
 ```
 
 ### LLDB debugging for tvOS (Swift)
-```po self.view!.performSelector(Selector("_whyIsThisViewNotFocusable"))```
+```swift 
+po self.view!.performSelector(Selector("_whyIsThisViewNotFocusable"))
+```
 
 ### LLDB debugging for tvOS with view address (Obj-C)
-```po [((UIView *)0x{{address}}) performSelector:@selector(_whyIsThisViewNotFocusable)]```
+```objc
+po [((UIView *)0x{{address}}) performSelector:@selector(_whyIsThisViewNotFocusable)]
+```
 
 ### Open Diagnostic Reports folder in Finder
 ```open ~/Library/Logs/DiagnosticReports```
